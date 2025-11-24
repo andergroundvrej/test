@@ -22,10 +22,11 @@ This command will:
 
 You will also need a .env file that will containt a variable HOST_NAME that will make the requests to the right URL.
 
+
 ### 1. Main Menu
 
 <div align="center">
-  <img width="700" alt="CLI Main Menu" src="https://github.com/user-attachments/assets/88500e9c-f67a-4978-ada5-2181252cb87d" />
+  <img width="680" height="101" alt="Screenshot from 2025-11-24 17-44-27" src="https://github.com/user-attachments/assets/0fc3b812-08a6-47ad-ab8d-b5f73eae483f" />
 </div>
 
 When you first launch the CLI, you'll see an interactive menu. Use the **arrow keys** to navigate between options:
@@ -43,7 +44,7 @@ After logging in, you can:
 - **Quit** - Return to the main menu
 
 <div align="center">
-  <img width="653" height="140" alt="Screenshot from 2025-11-22 18-40-20" src="https://github.com/user-attachments/assets/a69d582c-ff2b-4ad0-8a7c-9b8c2a9d0ac1" />
+  <img width="685" height="124" alt="Screenshot from 2025-11-24 17-44-44" src="https://github.com/user-attachments/assets/c56f5748-155e-431e-b3fe-f505fdc2d784" />
 </div>
 
 Once you find an opponent after some seconds, you will have a little window that will tell you to press Space to start the game. So you guessed it, the game will not start until you or your opponent presses Space.
