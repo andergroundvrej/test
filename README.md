@@ -1,5 +1,5 @@
 
-## CLI Readme
+# 🎮 Pong CLI - Terminal-Based Multiplayer Game
 A real-time multiplayer Pong game built with TypeScript that runs entirely in your terminal. Connect with opponents, compete in ASCII-rendered matches, and experience classic Pong gameplay through a beautiful command-line interface.
 
 ---
