@@ -1,27 +1,54 @@
 
 ## CLI Readme
-Welcome to the CLI documentation,
-here is a litle guide to help you use it to have as much fun as possible with it
-first to start you must use this command
+A real-time multiplayer Pong game built with TypeScript that runs entirely in your terminal. Connect with opponents, compete in ASCII-rendered matches, and experience classic Pong gameplay through a beautiful command-line interface.
+
+---
+
+## ✨ Features
+
+- 🎯 **Real-time multiplayer** - Play against opponents using WebSocket connections
+- 🎨 **ASCII graphics** - Beautiful terminal rendering with color-coded elements
+- 🔐 **Authentication system** - User registration and login with 2FA support
+- 🎮 **Queue-based matchmaking** - Automatic opponent finding
+- 📊 **Live scoring** - Real-time score updates during gameplay
 
 ```bash
   make
 ```
+This command will:
+- Install all necessary dependencies
+- Compile the TypeScript code
+- Launch the CLI program
 
-This will install all the dependencies necessary to be able to compile the CLI. You will also need a .env file that will containt a variable HOST_NAME that will make the requests to the right URL.
+You will also need a .env file that will containt a variable HOST_NAME that will make the requests to the right URL.
 
-It will also run the command that launches the CLI program. This is how it will look like.
+### 1. Main Menu
 
 <div align="center">
   <img width="700" alt="CLI Main Menu" src="https://github.com/user-attachments/assets/88500e9c-f67a-4978-ada5-2181252cb87d" />
 </div>
-Now that this is done on your terminal, you will have an interactive CLI, and you will need to choose with the arrows of your keyboard whether you want to create a new account or log in to an already existing one, or you can leave the CLI.
 
-After loging in you can join the queue or leave as you please and again leave if you have enough... If everything works fine this is waht you will have on your terminal.
+When you first launch the CLI, you'll see an interactive menu. Use the **arrow keys** to navigate between options:
+
+- **Login** - Access an existing account
+- **Create Account** - Register a new user
+- **Exit** - Close the application
+
+### 2. Queue System
+
+After logging in, you can:
+
+- **Join Queue** - Enter matchmaking to find an opponent
+- **Leave Queue** - Exit matchmaking
+- **Quit** - Return to the main menu
+
 <div align="center">
   <img width="653" height="140" alt="Screenshot from 2025-11-22 18-40-20" src="https://github.com/user-attachments/assets/a69d582c-ff2b-4ad0-8a7c-9b8c2a9d0ac1" />
 </div>
+
 Once you find an opponent after some seconds, you will have a little window that will tell you to press Space to start the game. So you guessed it, the game will not start until you or your opponent presses Space.
+
+### 4. Controls
 
 <div align="center">
 
@@ -46,7 +73,7 @@ or
   make clean
 ```
 
-Here is a little example of how it works.
+The CLI connects to a backend API using WebSockets for real-time gameplay. Here's how the flow works:
 
 ```mermaid
 flowchart TD
