@@ -99,6 +99,13 @@ A([ajouter un document]) -- Créer un nom temporaire --> B[liste document]
 B --> C{materiaux existant}
 C -- Non --> D[cree le materiaux]
 C -- Oui --> E[choisir le materiaux]
+D --> F[materiaux existant]
+E --> F
+F -- En rouge --> G[Aucune validation]
+F -- En orange --> H[En cour de validation]
+F -- En vert --> I[Valider]
+G -- rajout d'une validation --> H
+H -- rajout d'une validation --> I
 
 
 ```
