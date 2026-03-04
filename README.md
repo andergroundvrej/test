@@ -95,7 +95,7 @@ G -- W/S --> Y[move paddle]
 ```
 ```mermaid
 flowchart TD
-A([ajouter un document]) -- Créer un nom temporaire --> B[liste document]
+A([ajouter un document]) -- Créer un nom temporaire/ Donner un nom --> B[liste document]
 B --> C{materiaux existant}
 C -- Non --> D[cree le materiaux]
 C -- Oui --> E[choisir le materiaux]
