@@ -96,14 +96,15 @@ G -- W/S --> Y[move paddle]
 ```mermaid
 flowchart TD
 A([ajouter un document]) -- Créer un nom temporaire/ Donner un nom --> B[liste document]
-B --> C{materiaux existant}
-C -- Non --> D[cree le materiaux]
-C -- Oui --> E[choisir le materiaux]
-D --> F[materiaux existant]
-E --> F
-F -- En rouge --> G[Aucune validation]
-F -- En orange --> H[En cour de validation]
-F -- En vert --> I[Valider]
+B --> C{Assigner le document}
+C --> F[materiel existant]
+F -- Non --> D[cree le materiaux]
+F -- Oui --> E[choisir le materiaux]
+D --> J[Document Assigner]
+E --> J
+J -- En rouge --> G[Aucune validation]
+J -- En orange --> H[En cour de validation]
+J -- En vert --> I[Valider]
 G -- rajout d'une validation --> H
 H -- rajout d'une validation --> I
 
