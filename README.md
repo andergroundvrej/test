@@ -93,5 +93,15 @@ F -- Opponent finded --> G[Game Start]
 G -- Q --> H[quit]
 G -- W/S --> Y[move paddle]
 ```
+```
+flowchart TD
+A([ajouter un document]) -- Créer un nom temporaire --> B[liste document]
+B --> C{materiaux existant}
+C -- Non --> D[cree le materiaux]
+C -- Oui --> E[choisir le materiaux]
+
+
+```
+
 
 Hope you will enjoy the game and the project!
